@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>list, table and forms</title>
+</head>
+
+<body>
+     <ul type="circle">
+          <!-- ul: unordered list  -->
+          <li>home</li> <!-- li: list items  -->
+          <li>contact</li>
+          <li>address</li>
+     </ul>
+     <ol type="I">
+          <!-- ol: ordered list  -->
+          <li>+91</li>
+          <li>+81</li>
+          <li>+72</li>
+     </ol>
+     <div>
+          <caption> kids data</caption>
+          <table>
+               <!-- to form table  -->
+               <thead>
+                    <tr>
+                         <!-- table row -->
+                         <th>S.NO.</th> <!-- table head  -->
+                         <th>name</th>
+                         <th>age</th>
+                         <th colspan="3">sports</th>
+                    </tr>
+
+                    <tr>
+                         <td>1</td> <!-- table data  -->
+                         <td>revati</td>
+                         <td>18+</td>
+                         <td>badminton</td>
+                    </tr>
+               </thead>
+               <thead>
+                    <!-- will be used in designing/ css -->
+                    <tr>
+                         <td>2</td>
+                         <td>tanya</td>
+                         <td>18+</td>
+                         <td>cricket</td>
+
+                    </tr>
+                    <tr>
+                         <td>3</td>
+                         <td>bhawna</td>
+                         <td>19+</td>
+                         <td>volleyball</td>
+
+                    </tr>
+               </thead>
+          </table>
+          <h1>below is a form</h1>
+
+          <form action="form.html">
+               <input type="text" placeholder="enter your name"> <br>
+               <!-- name should be same in all options given-->
+               <label for="sectionida">
+                    <input type="radio" name="section" value="section a" id="sectionida">section A
+               </label>
+               <label for="sectionidb">
+                    <input type="radio" name="section" value="section b" id="sectionidb">section B
+               </label>
+               <label for="sectionidc">
+                    <input type="radio" name="section" value="section c" id="sectionidc">section C <br>
+               </label>
+               <input type="checkbox" id="messfood" name="food">
+               <label for="messfood">want food service?</label> <br>
+               <input type="text" placeholder="food suggestion"> <br>
+
+               <!-- label enables to select even by clickinag at text and not necceserily on box -->
+               <!-- radio : can select only one at a time -->
+
+               <textarea name="explain" id="mess" cols="30" rows="10" placeholder="explain your preference"></textarea>
+               <br>
+               <select name="car" id="yourcar"> 
+                    <option value="no car"> select your car</option>
+                    <option value="i10"> i10</option>
+                    <option value="i20"> i20</option>
+                    <option value="swift"> swift</option>
+                    <option value="aulto"> aulto</option>
+               </select>
+               <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/psseq-yd-IA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></ifram
+               </div>
+          </form>
+
+     </div>
+</body>
+
+</html>
