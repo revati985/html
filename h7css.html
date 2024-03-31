@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css position</title>
+    <style>
+        .container{
+            width: 3444px;
+            height: 3444px;
+            background-color: rgb(49, 162, 33);
+        }
+        .box{
+        /* display inline is used when width and height are given */
+            display: inline-block;
+            border:2px solid red;
+            background-color: aliceblue;
+            width: 200px;
+            height: 200px;
+        }
+        
+        #box3{
+            position: absolute;
+            margin-top: 30px;
+            left:122px;
+        }
+    </style>
+</head>
+<body>
+    <!-- css position: 
+        static(default),relative(to self original pos),
+        absolute(relative to parent),fixed,sticky -->
+
+    <!-- div.box#box$*4 : 4 div with each class of box(.) and id $box1,2,3,4(#) -->
+    <!-- dic.container :parent container -->
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+    
+</body>
+</html>

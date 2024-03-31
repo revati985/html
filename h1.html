@@ -1,0 +1,127 @@
+<!DOCTYPE html>  
+<!-- MARKUP CODE -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- more meta tags can be -->
+    <meta name="keywords" content="html,html.h">
+    <meta name="description" content="this is discription">
+    <!-- used to bring website in search engines -->
+    <meta name="robot" content="INDEX,FOLLOW">    
+    <title> Revati Document</title>
+    <!-- linking css and js files in html -->
+    <!-- link:css -->
+    <!-- script:src -->
+    <link rel="stylesheet" href="c1.css">     
+    <script src="j1.js"></script>            
+</head>
+<body>
+    <!-- header tag- heading in bold -->
+    <h1>this is heading</h1>   
+    <h2>this is heading 2</h2>  
+    <!-- paragraph tag -->
+    <!-- lorem40 gives 40 dummy words space -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam esse obcaecati asperiores odit accusamus <strong>this gives bold(b)</strong> ab nostrum, delectus, id culpa pariatur vel velit ea <em>gives italics(i),(emphasize)</em> itaque deserunt, tempore dolores atque repudiandae commodi saepe fugiat sint autem perspiciatis. Vel voluptate dolore recusandae autem!
+    </p> 
+    <!-- p*3 gives 3 paragraph tags -->
+    <p>first</p><br>new line, break tag (self clossing)
+    <p>second</p>
+    <p>third</p>
+    <!-- ctrl+enter to jump to nwxt line -->
+
+    <!-- ANCHOR AND IMAGE -->
+    <!-- tag(a) and attribue(href) -->
+    <a href="https://google.com">go to google</a><br>
+    <!-- target opens url in new tab or window -->
+    <a href="https://instagram.com" target="_blank">go to Instagram</a><br>
+
+    <!-- alt is the text shown if image is not loaded -->
+
+    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg" alt="eye image">
+
+    <!-- TABLES AND LISTS -->
+    <!-- bullet types: square,circle,disc for unordered lists -->
+    <h2>LIST</h2>
+    <ul type=""square>  
+        <li>one</li>
+        <li>two</li>
+        <ul>
+            hello
+        </ul>
+        <li>three</li>
+    </ul>
+    <!-- ordered lists -->
+    <ol type=""i>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+
+    <!--table, table head(thead), table row(tr),heading(th),tbody,tr, table data(td) -->
+    <h2>TABLE</h2>
+    <table>
+        <!-- table head -->
+        <thead>
+            <!-- table row -->
+            <tr>
+                    <!-- table row heading -->
+                <th>name</th>   
+                <th>roll</th>
+                <th>course</th>
+            </tr>
+        </thead>
+        <!-- table body -->
+    <tbody>
+        <tr>
+            <!-- table data -->
+            <td>revati</td>
+            <td>025</td>
+            <td>IT</td>
+        </tr>
+        <tr>
+            <td>chiku</td>
+            <td>061</td>
+            <td>IT</td>
+        </tr>
+        <tr>
+            <td>muskan</td>
+            <td>411</td>
+            <td>CSE</td>
+        </tr>
+    </tbody>
+</table>
+<!-- INLINE AND BLOCK ELEMENTS -->
+<p>this is a block 1 (consume all space)</p><p>this is block elements 2</p>
+<span>this is inline elements 1</span><span>this is inline elements 2</span>
+
+<!-- (.CLASS) AND (#IDS) -->
+<h3>classes and id in html</h3>
+<!-- id is unique identifier, cannot be used in any other div -->
+<!-- class is under which properties are defined, can be called anywhere..can be multiple -->
+<!-- class name can be same for multiple elements -->
+<div id="mainbox" class="redbg blackbg">
+    this is mainbox
+</div>
+<span class="redbg"></span>
+<!-- span cannot use id -->
+<!-- div.redbg.blackbg +enter -->
+<div class="redbg blackbg"></div>
+<!-- creating multiple elements using emmet -->
+<!-- span.myclass1.myclass2.myclass3*4  -->
+<span class="myclass1 myclass2 myclass3">first</span>
+<span class="myclass1 myclass2 myclass3">second</span>
+<span class="myclass1 myclass2 myclass3">third</span>
+<span class="myclass1 myclass2 myclass3">fourth</span>
+
+<!-- HTML ENTITIES -->
+<h3>Html entities</h3>
+<!-- starts with ampersand (&) and end with a semicolon (;) -->
+<!-- used to display reserved characters,that are difficult to type with a standard keyboard.  -->
+<p>this is paragraph    with two space &nbsp; &nbsp; hey, nbsp is non breakable space</p>
+<p>pound is written like &pound; </p>
+<p>copyrright like &copy;</p>
+
+
+</body>
+</html>

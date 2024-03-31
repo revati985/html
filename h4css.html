@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors in css: element, id, class, group</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <style>
+        /* element selector */
+        .class{
+            border:15px solid rgb(18, 115, 27);
+        }
+        p{
+            border: 3px solid rgb(236, 71, 71);
+
+        }
+        /* id selector */
+        #first{
+            color:red;
+        }
+        /* class selector */
+        .purplep{
+            font-family: 'Kode Mono','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+            font-size: 13px;
+            color:pink;
+            background-color:purple
+            height=140px;
+        }
+        /* group selector */
+        footer,div{
+            font-size: 15px;
+            font-style: oblique;
+            color:seagreen;
+        }
+        span{
+            color:rgb(255, 255, 47);
+            font-style: italic;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="class">
+    <h3>Selectors in css: id, class, group</h3>
+    <p id="firstp">1 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum excepturi adipisci ad, error inventore provident.
+    </p>
+    <p id="secondp" class="purplep pinkbg">
+        2 Lorem ipsum dolor sit amet <span>hello</span> consectetur adipisicing elit. Voluptatibus voluptates eligendi at, libero tenetur sit!
+    <div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat esse error repudiandae vitae. Blanditiis, eos!
+    </div>
+    <footer> this is footer</footer>
+</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>This Is A Form</h1>
+    <!-- where all data is sumbitted -->
+    <!-- name attribute is under which name the data is stored -->
+    <form action="backend.php">
+        <!--div: divisions     -->
+        <label for="name">Your Name</label>
+        <div>
+            <input type="text" name="myname" id=""name>
+        </div><br>
+        <div>
+            email: <input type="email" name="myemail">
+        </div><br>
+        <div>
+            DOB: <input type="date" name="mybirth">
+        </div><br>
+        <div>
+            age: <input type="number" name="myage">
+        </div><br>
+        <label for="c">course</label><br>
+        <div>
+            <!-- name :where data is stored in backend -->
+            <select name="mycourse" id="c">
+                <option value="1">IT</option>
+                <option value="2">CSE</option>
+                <option value="3">ECE</option>
+            </select>
+        </div><br>
+        <div>
+            i am not a robot: <input type="checkbox" name="notarobot">
+        </div><br>
+        <div>
+            Gender: Female<input type="radio" name="gender">Male<input type="radio" name="gender">
+            Other: <input type="radio" name="gender">
+        </div><br>
+        <div>
+            write about yourself: <br><textarea name="about" cols="30" rows="10"></textarea>
+        </div><br>
+        
+        <div>
+            <input type="submit" value="sumbit now">
+            <input type="reset" value="reset">
+        </div>
+    </form>
+    
+</body>
+</html>

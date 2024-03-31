@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model,margin,padding</title>
+    <style>
+        /* for all */
+        *{
+            box-sizing: border-box;
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: #ae944a;;
+        }
+        .container{
+            border:5px solid white;
+        }
+        .items{
+            background-color:#eac391;
+            border: 3px solid rgb(156, 33, 33);
+            padding: 30px 45px;
+            margin: 15px 30px;
+            /* padding/margin: 23px 56px 34px 78px;       top right bottom left */
+            /* padding: 40px 20px;               y(top/bottom), x(left/right) */        
+            border-radius: 15px;
+
+            /* box sizing doesn't increase the width of box, but adjust the text within box, by inc padding*/
+            box-sizing: border-box; 
+        }
+        #fruits{
+            float:left;
+            width:50%;
+        } 
+        /* #flower{
+            float:left;
+            width:48%;
+        } 
+        #colour{
+            
+        }  */
+        h1{
+            color: aliceblue;
+            /* text-align: center; */
+            width:69px;
+            margin: auto;
+        }
+    </style>
+            <!-- .container, #fruits.items, h, p#first.para  -->
+</head>
+<body>
+<div class="container">
+    <h1>STORE</h1>
+    <div id="fruits" class="items"><h2>fruits</h2>
+    <p id="first" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corporis, in facere, nostrum quam veritatis iste sequi aut quasi provident, dolorem aspernatur quo rerum at!</p> 
+    </div>
+    <div id="flower" class="items"><h2>flowers</h2>
+    <p id="second" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corporis, in facere, nostrum quam veritatis iste sequi aut quasi provident, dolorem aspernatur quo rerum at!</p>
+    </div>
+    <div id="colour" class="items"><h2>colour</h2>
+    <p id="third" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corporis, in facere, nostrum quam veritatis iste sequi aut quasi provident, dolorem aspernatur quo rerum at!</p>
+    </div>
+</div>
+</body>
+</html>
